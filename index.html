@@ -4,10 +4,127 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      body {
+  background-color: rgb(185, 217, 167);
+  margin: 0 0 30px 0;
+  padding: 30px;
+}
+h1,
+h2,
+p {
+  text-align: center;
+}
+h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 70px;
+  margin-bottom: 0px;
+}
+h2 {
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  margin: 0 auto 10px auto;
+  width: 80%;
+}
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+}
+ul {
+  margin: auto;
+  max-width: 500px;
+}
+li {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+/*** container ***/
+#main {
+  background-color: rgb(185, 217, 167);
+  padding: 10px;
+}
+#img-div {
+  background-color: white;
+  border-radius: 5px;
+  margin: 40px auto 60px auto;
+  width: 60%;
+}
+figure {
+  margin: auto;
+  padding: 5px;
+  width: 90%;
+}
+#image {
+  display: block;
+  margin: 40px auto 20px auto;
+  max-width: 100%;
+}
+figcaption {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/*** timeline & link ***/
+#tribute-info {
+  margin-bottom: 20px;
+}
+.link-text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  margin: 0 auto 10px auto;
+  text-align: center;
+  width: 80%;
+}
+#tribute-link {
+  text-decoration: none;
+}
+
+/* Mobile devices */
+/* applies to all widths 400px and less */
+@media (max-width: 400px) {
+ 
+}
+    </style>
   </head>
 
   <body>
-    Hello World, we are software developers!
+   
+  <div id="main">
+    <div id="title">
+      <center><h1>Jane Goodall</h1></center>
+      <p>Research pioneer and protector of chimpanzees in the wild</p>
+    </div>
+    <div id="img-div">
+      <figure>
+        <img id="image" src="https://res.cloudinary.com/sharonnt/image/upload/v1528287118/Jane_Goodall.jpg" alt="Swimmer">
+        <figcaption id="img-caption">Jane Goodall with a rescued chimpanzee at Tchimpounga Chimpanzee Rehabilitation Center in the Republic of Congo.
+        </figcaption>
+      </figure>
+    </div>
+    <div id="tribute-info">
+      <h2>Here is a timeline of Jane Goodall's life.</h2>
+      <ul>
+        <li>1934 - Valerie Jane Morris-Goodall, known as Jane Goodall, was born on April 3, 1934 in London, England.</li>
+        <li>1941 - Inspired by The Story of Dr. Doolittle, she dreamt of going to Africa to study animals one day.</li>
+        <li>1952 - She got a job as a typist at Oxford University. She later worked for a film studio.</li>
+        <li>1956 - An opportunity that changed her life. She was invited by a friend to visit their family farm in Kenya, Africa.</li>
+        <li>1957 - At age 23, Jane set foot in Africa. In Kenya she met a famous anthropologist, Dr. Louis Leakey, who eventually hired her to be his secretary at the Coryndon Museum (now the National Museum of Kenya) in Nairobi. Recognising her talent, he decided she was the right person to take on a study of chimps in the Gombe Stream Reserve in Tanzania. When Jane returned to England, Dr. Leakey began raising funds for the project.</li>
+        <li>1960 - Jane, accompanied by her mother, set up camp at the Gombe Stream Reserve in Tanzania. Jane spent hours every day observing the chimpanzees, noting down their dietary habits and food-gathering ingenuity. In November, her mother returned to England.</li>
+        <li>1962 - With Dr. Leakey's help, Jane was accepted into a programme at Cambridge University. After her first term, Jane headed back to Africa. This time, she met Baron Hugo van Lawick, a photographer/filmmaker from the National Geographic magazine. She was his assignment - he took pictures of her while she worked.</li>
+        <li>1964 - On March 28, 1964 Jane and Hugo wedded. They returned to Gombe to continue researching chimps.</li>
+        <li>1967 - In March of 1967, Jane gave birth to her son, Hugo. They nicknamed him "Grub".</li>
+        <li>1966 - She graduated from Cambridge and became professionally known as Dr. Jane Goodall.</li>
+        <li>1974 - Jane and Hugo divorced. This same year, Jane observed that chimps waged war on other groups of chimps, and even carried out cannibalism.</li>
+        <li>1975 - Jane met Derek Bryceson, the head of the Tanzanian National Park, and married him. Unfortunately, soon after the wedding, Derek died of cancer.</li>
+        <li>1977 to present - Jane founded the Jane Goodall Institute to help people understand the importance of preserving the forests and the animals who lived in them. Over the years several programs have developed to help others realise that they, too, can make a difference in the world around them.</li>
+      </ul>
+    </div>
+    <div class="link-text">Read more about the amazing Dr. Goodall on<a id="tribute-link" href="https://en.wikipedia.org/wiki/Jane_Goodall" target="_blank"> Wikipedia</a>.
+    </div>
+  </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
